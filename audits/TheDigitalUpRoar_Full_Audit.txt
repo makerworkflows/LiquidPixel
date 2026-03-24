@@ -1,0 +1,667 @@
+FULL WEBSITE AUDIT
+Copy • Strategy • Technical • Conversion
+
+The Digital UpRoar
+thedigitaluproar.com
+Technical Audit Score
+
+Copy & Strategy Score
+
+3.3 / 10 4.4 / 10
+Combined Score
+
+3.8 / 10
+High-Caliber Clients. Low-Visibility Presence. Massive Upside.
+Prepared by Maker Web Studios • March 2026
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+
+Executive Summary
+The Digital UpRoar has something most agencies never earn: preferred vendor status with TAO Group
+Hospitality and 50 Eggs Hospitality — two of the most recognized names in American nightlife and dining.
+Governor Greg Abbott and actress Tisha Campbell have DigiBiz Cards on file. Driscoll Children's Hospital,
+NeueHouse, and the City of Pharr are in the tour portfolio.
+The problem is none of this is visible, findable, or persuasive on the website.
+The site reads like a first draft: incomplete headline, outdated references, no testimonials, no case studies,
+zero Google reviews, and a platform (Wix) that fundamentally caps what search engines can see. The
+mismatch between the caliber of the client roster and the state of the digital presence is the defining finding
+of this audit — and the defining opportunity.
+Audit Category
+
+Score
+
+Key Finding
+
+Design & User Experience
+
+4/10
+
+Wix template. Generic. No brand differentiation in
+layout.
+
+On-Page SEO
+
+3/10
+
+Severe keyword cannibalization. Shallow
+targeting.
+
+Technical SEO
+
+4/10
+
+Sitemap submitted. But Wix CSR is a hard
+ceiling.
+
+Content Quality & Depth
+
+3/10
+
+Blog dormant 15 months. Service pages thin.
+
+Conversion Optimization
+
+3/10
+
+No pricing, no intake form, no lead magnets.
+
+Trust & Credibility
+
+4/10
+
+Great clients. Zero testimonials or reviews to
+show for it.
+
+Digital Presence / Backlinks
+
+2/10
+
+Invisible in search. No directories. No reviews.
+
+Hero Copy
+
+3/10
+
+Incomplete headline. Image embedded in text.
+No subhead.
+
+Body Copy & Messaging
+
+4/10
+
+Vague, generic, outdated. Undersells the client
+roster.
+
+CTA Architecture
+
+3/10
+
+7 CTAs fighting each other. None visually
+dominant.
+
+COMBINED OVERALL SCORE
+
+3.8/10
+
+Strong niche & real clients. Digital presence
+does not match.
+
+1. Hero Section — Score: 3/10
+The hero is the most important real estate on any website. A visitor decides whether to stay or leave within
+3–5 seconds. The current hero fails that test.
+
+What's Currently There
+Headline: "We live in a [LOGO IMAGE] digital agency à la carte"
+Subheadline: None
+CTAs: "Recent Tours" (XML icon link) | "CONTACT" (mailto:) | "Book a Call" (PNG image)
+Visual: Static company logo
+Social Proof: None above the fold
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+
+[CRITICAL] The headline is incomplete — a logo image is embedded mid-sentence
+
+→ Fix: Replace entirely. The text 'We live in a [IMAGE]...' renders as broken copy on slower
+connections and is conceptually unclear. Write a real headline.
+[CRITICAL] No subheadline or value proposition anywhere in the hero
+
+→ Fix: Add 1–2 sentences that answer: What do you do? Who is it for? Why does it matter? This is the
+most impactful single fix on the entire site.
+[CRITICAL] 'Book a Call' is a PNG image — not a real button
+
+→ Fix: This is inaccessible to screen readers and invisible to search engines. Replace with a properly
+styled HTML button: 'Book a Free Strategy Call.'
+[MODERATE] Hero visual is a static logo — it shows nothing about the product
+
+→ Fix: Embed a live 360° tour preview or autoplay video reel directly in the hero. The product is
+experiential — show it in 5 seconds or lose the visitor.
+
+Recommended Hero Rewrites
+Option A — Outcome-led: "Let the World Walk Through Your Business — From Anywhere."
+Option B — Challenge-led: "Your Next Client Is Googling You Right Now. What Do They See?"
+Option C — Brand-led: "We Make Spaces Unforgettable — Virtually, Visually, Digitally."
+Subhead (all options): "Immersive virtual tours, video content, and digital tools for hospitality,
+retail, and entertainment brands. Trusted by TAO Group, 50 Eggs Hospitality, and Driscoll
+Children's Hospital."
+Primary CTA: "Book a Free Strategy Call" | Secondary: "See Our Work"
+
+2. Copy & Messaging — Score: 4/10
+Good B2B copy does three things: speaks to a specific audience, demonstrates value clearly, and drives
+toward an action. The current copy does none of these consistently. Below are section-by-section findings.
+
+Virtual Tours Section
+[CRITICAL] "It's 2024..." in the TapGenie section — the year is outdated
+
+→ Fix: Update to current year or remove the date-specific reference. A stale date tells buyers the site
+has not been maintained.
+[MODERATE] Exclamation point overuse undermines professional credibility
+
+→ Fix: 4 exclamation points in 3 sentences reads as hypey. For B2B buyers at hospitality groups, this
+signals low sophistication. Reduce to 1 per section maximum.
+
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+[MODERATE] "Basic to Ultra Premium" tiers are never defined — no anchoring
+
+→ Fix: Replace with named tiers (Essential / Professional / Signature) that hint at what is included.
+Even vague tier names are more useful than a range with no detail.
+
+Current copy:
+"Virtual Tours have quickly become an Essential tool in letting the world see/hear and explore your business
+from the comfort of your own phone!"
+Suggested rewrite:
+"Immersive virtual tours are now the standard for hospitality, retail, and entertainment brands
+serious about their online presence. Our tours range from clean-and-functional to fully branded
+experiences — complete with custom hotspots, audio narration, VR compatibility, and Google
+Street View integration. Trusted by TAO Group, 50 Eggs Hospitality, and Driscoll Children's
+Hospital."
+
+About Us Section
+[CRITICAL] The About section is generic boilerplate — could belong to any agency on the
+
+internet
+→ Fix: 'We built our solutions by closely listening to our potential clientele...' says nothing. Add: who
+Ruben Cepeda is, the origin story, the NYC roots, what makes The Digital UpRoar different. Hospitality
+is relationship-driven — buyers want to know who they're calling.
+[MODERATE] The phrase 'boutique digital agency à la carte' is used 3 times on the
+
+homepage
+→ Fix: Use it once. Repetition dilutes rather than reinforces. This phrase is genuinely clever — let it
+breathe.
+[CRITICAL] 360 Travel Guy personal project appears mid-agency website with no context
+
+→ Fix: This creates brand confusion. Either label it clearly ('Our Founder's Creative Side') or move it off
+the homepage entirely. A first-time visitor has no frame of reference for it.
+
+Blog Section
+[CRITICAL] Blog dormant for 15 months (last post Dec 2024) — signals inactivity to Google
+
+and buyers
+→ Fix: Resume publishing 2–4 posts per month. Expand topics beyond virtual tours to include video,
+DigiBiz Cards, AR, and industry trends. The 24-post archive is a foundation, not a finish line.
+[CRITICAL] Severe keyword cannibalization — 6 posts on hotel virtual tours covering the
+
+same ground
+→ Fix: Google cannot determine which post to rank, so it ranks none. Consolidate repetitive posts into
+5–6 definitive pillar articles (1,500–2,000 words each) with 301 redirects from merged URLs.
+
+Recommended About Us Rewrite
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+
+"The Digital UpRoar is a boutique digital agency for brands that want to be seen, explored, and
+remembered. Founded by Ruben Cepeda, we specialize in immersive virtual tours, dynamic video
+content, and smart digital tools — built for the businesses that can't afford to be invisible online.
+We've earned preferred vendor status with TAO Group Hospitality and 50 Eggs Hospitality, and our
+work spans nightlife venues, hotel properties, hospitals, event centers, and government offices
+from New York City to Austin, Texas.
+No bundles. No bloat. Just the service you need, done right."
+
+3. Calls to Action — Score: 3/10
+The homepage has at least 7 CTAs pointing to 6 different destinations. None are visually dominant. There is
+no primary action a visitor is clearly being invited to take. This is the architectural root of the conversion
+problem.
+Current CTA
+
+Problem
+
+Recommendation
+
+"Recent Tours" (XML
+icon)
+
+Icon-only; unclear destination
+
+Replace with: "View Our Portfolio →"
+
+"CONTACT" (mailto
+link)
+
+Opens email app; bypasses
+your form
+
+Replace with: "Let's Talk" → scrolls to
+contact form
+
+"Book a Call" (PNG
+image)
+
+Not a real button; inaccessible
+
+Real styled button: "Book a Free Strategy
+Call"
+
+"Email us for FREE
+QUOTE!"
+
+Buried in body copy
+
+Pull out as styled button: "Get a Free Quote"
+
+"get@mytapgenie.com Second email address =
+"
+confusion
+
+Consolidate to one email or redirect to form
+
+UNMXD graphic
+design link
+
+Sends traffic off-site
+permanently
+
+Open in new tab; add return path
+
+"Get a Free Quote"
+(VT page)
+
+Form with only 3 fields
+
+Add: venue type, square footage, timeline,
+budget
+
+Recommended CTA Hierarchy (Every Page Should Follow This)
+#1 — Primary CTA
+
+"Book a Free Strategy Call" → Calendly (high contrast, above the
+fold)
+
+#2 — Secondary CTA
+
+"See Our Work" → Virtual Tours portfolio page
+
+#3 — Tertiary CTA
+
+"Get a Free Quote" → Scrolls to contact form
+
+4. Trust & Credibility — Score: 4/10
+The Digital UpRoar has elite-tier social proof. The problem is almost none of it is on the website in a format a
+buyer can see and act on.
+
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+[CRITICAL] Zero client testimonials despite TAO Group, Governor Abbott, and Tisha
+
+Campbell as clients
+→ Fix: Even 2–3 strong quotes from recognizable names would be transformative. Email your top 5
+clients this week requesting a one-sentence testimonial. Feature them on the homepage and every
+service page.
+[CRITICAL] No 'Trusted By' client logo bar on the homepage
+
+→ Fix: TAO Group and 50 Eggs logos above the fold would immediately elevate perceived authority.
+This is likely the single fastest credibility fix available. Add it before anything else.
+[CRITICAL] Zero reviews on Google, Clutch, G2, or any third-party platform
+
+→ Fix: When buyers search 'The Digital UpRoar reviews,' they find nothing. This is a disqualifying
+signal for enterprise buyers. Target 10 Google reviews in the next 60 days. Set up a Clutch profile.
+[MODERATE] Ruben Cepeda not prominently featured — no founder story, no photo, no bio
+
+→ Fix: Hospitality is a relationship business. Buyers want to know who they're calling. A prominent
+'Meet the Founder' section with background, mission, and personality converts consistently in this
+vertical.
+[CRITICAL] Footer copyright reads 2023 — site appears unmaintained
+
+→ Fix: Update to © 2026 The Digital UpRoar. A two-year-old copyright is a quiet trust killer.
+[MODERATE] No press, awards, certifications, or industry affiliations visible
+
+→ Fix: A company serving TAO Group should be pitching stories to Skift, Hotel Management, and
+Hospitality Design. Even one press mention anchors credibility.
+
+5. Pricing Strategy — Should They Show Prices?
+This is the most common strategic question for boutique service businesses. Here is the complete analysis
+for The Digital UpRoar's specific situation.
+
+The Case FOR Showing Pricing
+• Pre-qualifies leads automatically — eliminates discovery calls with price-sensitive buyers who
+aren't a fit
+• Reduces friction — many buyers need a number before they'll start a conversation
+• Signals transparency and confidence — builds trust vs. competitors who hide pricing
+• SEO asset — 'virtual tour pricing' and 'virtual tour cost' are high-intent buyer search queries
+• Works well for productized tiers (Essential / Professional / Signature)
+
+The Case AGAINST Showing Pricing
+
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+
+• Projects vary significantly — a flat price can undervalue complex multi-location jobs or scare off
+simple ones
+• Competitors can undercut once rates are visible
+• Enterprise hospitality buyers (TAO Group-tier) expect custom pricing — a $500 tier anchor could
+work against you
+• May reduce premium positioning perception if your actual prices are lower than what a prospect
+assumed
+
+The Recommendation: Tiered Anchor Pricing with 'Starting From'
+The verdict: Show pricing — but use starting-from anchors, not fixed prices.
+
+This captures both benefits: it pre-qualifies budget-sensitive buyers AND keeps high-end custom
+deals fully open. Here is the recommended tier structure:
+
+Essential Tour — "Starting from $X" (basic space capture, Google Maps integration, 1 location)
+Professional Tour — "Starting from $X" (custom branding, hotspots, narration, social delivery
+assets)
+Signature Tour — "Custom Quote" (full production, VR compatibility, multi-location, white-glove
+service)
+
+Key rule: "Starting from" sets a floor and pre-qualifies budget without anchoring your ceiling. Never
+publish your maximum — only your minimum. The Signature tier at "Custom Quote" keeps
+enterprise doors fully open.
+
+6. Technical SEO Summary (from Full Audit)
+The following findings are drawn from the full technical audit. They provide the infrastructure context for why
+copy improvements alone won't solve the visibility problem.
+[CRITICAL] Wix Thunderbolt CSR is the single biggest technical ceiling on the entire site
+
+→ Fix: Wix renders all content via JavaScript client-side. Google can process JS but it's deprioritized,
+delayed, and unreliable. Every other fix is less effective until the platform question is resolved. Evaluate
+migration to WordPress, Webflow, or Next.js.
+[CRITICAL] No Google Analytics GA4 or Google Search Console confirmed
+
+→ Fix: Zero visibility into traffic sources, user behavior, or conversion paths. Install GA4 and connect
+GSC immediately — this is free and takes 30 minutes.
+
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+[CRITICAL] No LocalBusiness, Service, or Article schema markup
+
+→ Fix: Eliminates eligibility for rich results in Google SERPs. For a visual services company, schema
+markup is a critical miss. Add at minimum: LocalBusiness and Service schema.
+[CRITICAL] No Google Business Profile confirmed
+
+→ Fix: Eliminates the company from 'virtual tour company near me' and local map searches in Austin
+and NYC — its two primary markets.
+[MODERATE] qr.thedigitaluproar.com subdomain splits domain authority
+
+→ Fix: Move DigiBiz Card landing pages to www.thedigitaluproar.com/digibiz/ to consolidate all
+authority under one domain.
+
+7. Priority Fix Roadmap — 90 Days
+Days 1–30: Foundation (Do These First)
+#
+
+Fix
+
+Impact
+
+1
+
+Add 'Trusted By' logo bar to homepage
+(TAO Group, 50 Eggs, key names)
+
+Instant credibility lift for new visitors
+
+2
+
+Rewrite hero: real headline, subhead, and a #1 conversion driver for cold traffic
+proper CTA button
+
+3
+
+Update 'It's 2024' to 2026; update footer
+copyright from 2023
+
+Immediate trust restoration
+
+4
+
+Replace Book-a-Call PNG with a real styled
+HTML button
+
+Accessibility + conversion improvement
+
+5
+
+Install GA4 and Google Search Console;
+submit sitemap
+
+Free — enables data-driven decisions
+
+6
+
+Create and verify Google Business Profile
+(Austin, TX + NYC)
+
+Appears in local search and map results
+
+7
+
+Request Google reviews from 10 past
+clients (start with strongest relationships)
+
+Target 10 reviews in 60 days
+
+8
+
+Create LinkedIn Company Page; post 5
+portfolio highlights
+
+Primary B2B discovery channel
+
+Days 31–60: Content & Trust
+#
+
+Fix
+
+Impact
+
+9
+
+Rewrite TAO Group and 50 Eggs pages as
+full case studies (challenge, solution,
+results)
+
+Converts browsers to believers
+
+10
+
+Collect 5–10 written testimonials; feature on
+homepage and service pages
+
+Addresses #1 buyer objection
+
+11
+
+Add 'Meet the Founder' section with
+Ruben's story and photo
+
+Hospitality buyers buy from people
+
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+
+12
+
+Build dedicated Pricing page with 3 tiers
+(Starting from model)
+
+Captures 'virtual tour cost' search traffic
+
+13
+
+Build 'Get a Quote' intake form with project
+scoping fields
+
+Improves lead quality dramatically
+
+14
+
+Implement LocalBusiness, Service, and
+FAQ schema markup
+
+Rich result eligibility in Google SERPs
+
+15
+
+Create Clutch and DesignRush profiles
+
+B2B discovery + backlink authority
+
+16
+
+Rewrite About section with founder story
+and differentiator language
+
+Converts relationship-driven buyers
+
+Days 61–90: Growth & Visibility
+#
+
+Fix
+
+Impact
+
+17
+
+Resume blog: 2–4 posts/month; expand to
+video, DigiBiz, AR topics
+
+SEO content engine restart
+
+18
+
+Consolidate 24 blog posts into 6 pillar
+articles with 301 redirects
+
+Eliminates keyword cannibalization
+
+19
+
+Launch YouTube channel with tour
+walkthroughs and behind-the-scenes
+
+Owned media + SEO for video queries
+
+20
+
+Create 'Hospitality Guide to Virtual Tours'
+PDF lead magnet
+
+Email capture for early-stage buyers
+
+21
+
+Install live chat (Tidio or HubSpot free tier)
+
+Immediate engagement for hot leads
+
+22
+
+Begin pitching Skift, Hotel Management,
+Hospitality Design for press coverage
+
+Backlinks + credibility in key trade pubs
+
+23
+
+Evaluate platform migration (WordPress/
+Webflow) — get build quotes
+
+Removes the fundamental SEO ceiling
+
+24
+
+Build 'Industries We Serve' page (hotels,
+nightclubs, restaurants, events,
+government)
+
+Captures vertical-specific buyer searches
+
+8. What They Are Doing Right
+This audit leads with problems because those are what need fixing. But the foundation is genuinely strong
+— and worth protecting as changes are made.
+Preferred vendor status with TAO
+Group + 50 Eggs
+
+These are top-tier hospitality brands. Most agencies never
+land clients at this level. This is a competitive moat — it
+needs to be the first thing a visitor sees.
+
+Notable DigiBiz clients
+
+Gov. Abbott, Commissioner Morath, Tisha Campbell —
+signals access to high-influence networks beyond
+hospitality.
+
+Clear niche positioning
+
+Focused on virtual tours for hospitality. Specificity beats
+generalism in service businesses. Don't dilute this.
+
+Clean domain history
+
+No spam penalties, no toxic backlinks. The domain is
+healthy — a platform migration would preserve this cleanly.
+
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+The Digital UpRoar — Full Website Audit • March 2026 • Prepared by Maker Web Studios
+
+Blog with 24 posts exists
+
+Most competitors have zero content. The archive is
+repetitive but it's a foundation to refine, not rebuild.
+
+DigiBiz Cards as second revenue
+stream
+
+Productized service that diversifies revenue. Notable clients
+validate the product.
+
+Dual-market presence (NYC +
+Austin/Texas)
+
+Two distinct geographic and industry networks — a rare
+asset. Currently not communicated on the site.
+
+Sitemap and robots.txt properly
+configured
+
+Shows technical awareness. Correctly blocking aggressive
+bots. PetalBot blocked.
+
+Closing Assessment
+The Digital UpRoar is a business with a premium client list and a beginner's digital presence. That gap is the
+opportunity. The fixes required are not exotic — they are fundamentals: write a clear headline, show who
+you've worked with, get 10 reviews, add pricing anchors, and make it easy for a hospitality buyer to say yes.
+None of these require a platform migration to start (though migration should be planned). The first 30 days of
+fixes are almost entirely copy, design, and configuration changes that can be made on Wix today.
+The strategic ceiling is high. The Digital UpRoar has earned the right to dominate the 'hospitality virtual tour
+vendor' vertical in search and in reputation. The website just needs to catch up to the work.
+Platform: Wix (migration recommended — evaluate within 90 days)
+Domain: thedigitaluproar.com — clean, established, no penalties
+Biggest Quick Win: Hero rewrite + client logo bar (can be done this week)
+Biggest Structural Win: 10 Google reviews + case studies (60-day project)
+Biggest Strategic Win: Platform migration to SSR stack (90-day planning horizon)
+Pricing recommendation: "Starting from" tiered anchors — YES, show pricing
+
+Confidential • thedigitaluproar.com • Maker Web Studios
+
+

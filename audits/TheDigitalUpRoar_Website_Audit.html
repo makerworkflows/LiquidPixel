@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TheDigitalUpRoar.com Website Audit</title>
+<style>
+@page {
+  size: letter;
+  margin: 0.75in 0.75in 1in 0.75in;
+  @bottom-center {
+    content: "Confidential — TheDigitalUpRoar.com Website Audit | March 2026";
+    font-size: 9px;
+    color: #888;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.header-bar {
+  background: #2E5C8A;
+  color: white;
+  padding: 8px 20px;
+  font-size: 9pt;
+  margin-bottom: 0;
+}
+.header-bar .title { font-weight: bold; }
+.header-bar .right { float: right; font-weight: normal; }
+h1 {
+  text-align: center;
+  font-size: 28pt;
+  font-weight: 700;
+  color: #222;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  letter-spacing: -0.5px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 14pt;
+  color: #2E5C8A;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.subsubtitle {
+  text-align: center;
+  font-size: 10pt;
+  color: #888;
+  margin-bottom: 60px;
+}
+h2 {
+  color: #2E5C8A;
+  font-size: 18pt;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  border-bottom: none;
+}
+h3 {
+  color: #2E5C8A;
+  font-size: 14pt;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+h4 {
+  color: #444;
+  font-size: 11pt;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+p { margin: 8px 0; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 10pt;
+}
+th {
+  background: #2E5C8A;
+  color: white;
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 10pt;
+}
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: top;
+}
+tr:nth-child(even) td { background: #f8f9fa; }
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 9pt;
+  color: white;
+  text-align: center;
+  min-width: 50px;
+}
+.badge-fail { background: #C0392B; }
+.badge-warn { background: #E67E22; }
+.badge-pass { background: #27AE60; }
+.badge-critical { background: #C0392B; }
+.badge-high { background: #E67E22; }
+.badge-medium { background: #3498DB; }
+.badge-low { background: #95A5A6; }
+.score-cell {
+  font-weight: 700;
+  font-size: 11pt;
+  text-align: center;
+  white-space: nowrap;
+}
+.overall-row td {
+  font-weight: 700;
+  font-size: 11pt;
+  border-top: 2px solid #2E5C8A;
+}
+.overall-score {
+  color: #C0392B;
+  font-weight: 700;
+}
+ul { margin: 5px 0 5px 20px; padding: 0; }
+li { margin: 4px 0; }
+.section-intro { margin-bottom: 15px; color: #555; }
+.roadmap-section h4 { color: #2E5C8A; }
+ol { margin: 5px 0 5px 20px; padding: 0; }
+ol li { margin: 6px 0; }
+.page-break { page-break-before: always; }
+hr { border: none; border-top: 1px solid #ddd; margin: 30px 0; }
+.end-marker {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  margin-top: 40px;
+}
+.strengths-list li { margin: 8px 0; }
+</style>
+</head>
+<body>
+
+<div class="header-bar">
+  <span class="title">TheDigitalUpRoar.com — Full Website Audit Report</span>
+  <span class="right">Prepared by Maker Web Studios &nbsp;|&nbsp; March 2026</span>
+</div>
+
+<h1>WEBSITE AUDIT REPORT</h1>
+<div class="subtitle">TheDigitalUpRoar.com (The Digital UpRoar)</div>
+<div class="subsubtitle">Deep Research Audit &nbsp;|&nbsp; March 2026 &nbsp;|&nbsp; Prepared by Maker Web Studios</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<h2>Executive Summary</h2>
+<p>TheDigitalUpRoar.com is the web presence of The Digital UpRoar, a boutique digital agency specializing in interactive 360-degree virtual tours, augmented reality experiences, video production, and digital business cards ("DigiBiz Cards"). The company was founded by Ruben (RC) Cepeda and operates out of Austin, Texas, with roots in the New York City hospitality market.</p>
+<p>This audit evaluated the site across seven dimensions: Design & UX, On-Page SEO, Technical SEO, Content Quality, Conversion Optimization, Trust & Credibility, and Digital Presence. The site shows some promising fundamentals — a defined niche, recognizable hospitality clients (TAO Group, 50 Eggs Hospitality), a blog with 24 posts, and a secondary revenue stream in digital business cards. However, significant gaps exist in SEO execution, content differentiation, conversion architecture, and online reputation.</p>
+<p>The site is built on Wix, which imposes hard ceilings on technical SEO performance, page speed, and customization. The blog content, while present, is highly repetitive — multiple posts cover virtually identical topics with slight rewording. Most critically, there is near-zero third-party social proof: no Google reviews, no Clutch profile, no G2 listing, and no visible testimonials despite serving high-profile clients.</p>
+<p>For a company that has landed preferred vendor status with TAO Group Hospitality and 50 Eggs Hospitality — brands that represent billions in combined hospitality revenue — <strong>the website dramatically undersells the caliber of work being delivered.</strong></p>
+
+<!-- SCORECARD -->
+<h2>Audit Scorecard</h2>
+<p class="section-intro">Each category is scored out of 10. Scores reflect performance relative to industry benchmarks for B2B/B2C creative services agencies.</p>
+
+<table>
+<tr><th>Category</th><th style="width:70px;">Score</th><th>Notes</th></tr>
+<tr><td><strong>Design & User Experience</strong></td><td class="score-cell">4/10</td><td>Wix template limits sophistication. Client-side rendering creates poor first-load experience. Modern aesthetic but generic.</td></tr>
+<tr><td><strong>On-Page SEO</strong></td><td class="score-cell">3/10</td><td>Blog exists (24 posts) but content is repetitive. Wix limits title tag and URL control. Keyword strategy is shallow.</td></tr>
+<tr><td><strong>Technical SEO</strong></td><td class="score-cell">4/10</td><td>Sitemap exists and is submitted. But Wix's client-side rendering severely limits crawlability. No schema markup detected.</td></tr>
+<tr><td><strong>Content Quality & Depth</strong></td><td class="score-cell">3/10</td><td>Blog is active but stale (last post Dec 2024). Topics are cannibalized — 5+ posts on hotel virtual tours. DigiBiz card pages pad volume without SEO value.</td></tr>
+<tr><td><strong>Conversion Optimization</strong></td><td class="score-cell">3/10</td><td>Contact page exists but no structured intake form, no pricing transparency, no lead magnets, no chat.</td></tr>
+<tr><td><strong>Trust & Credibility</strong></td><td class="score-cell">4/10</td><td>TAO Group and 50 Eggs are strong client names. Notable DigiBiz card clients (Governor Abbott, Tisha Campbell). But zero third-party reviews or testimonials visible.</td></tr>
+<tr><td><strong>Digital Presence & Backlinks</strong></td><td class="score-cell">2/10</td><td>Near-zero organic footprint. Minimal LinkedIn presence. No Google reviews. No directory listings. Instagram exists but engagement unknown.</td></tr>
+<tr class="overall-row"><td><strong>OVERALL SCORE</strong></td><td class="score-cell overall-score">3.3/10</td><td><strong class="overall-score">Strong niche positioning and real clients, but the digital presence does not match the quality of work. High upside opportunity.</strong></td></tr>
+</table>
+
+<!-- FULL AUDIT CHECKLIST -->
+<div class="page-break"></div>
+<h2>Full Audit Checklist</h2>
+
+<h3>Design & User Experience</h3>
+<table>
+<tr><th style="width:60px;"></th><th style="width:160px;">Area</th><th>Finding</th></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Visual Design</td><td>Site uses a Wix template — clean and modern-looking but indistinguishable from thousands of other Wix sites. No custom design language or brand differentiation in the layout itself.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Platform Choice</td><td>Built on Wix (Thunderbolt renderer). Wix is fully client-side rendered, meaning search engines receive minimal content on initial crawl. This is a fundamental SEO ceiling that cannot be fixed without migrating platforms.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Homepage Hero</td><td>Homepage title references "Virtual Tours" which is on-brand, but hero messaging and value proposition details are loaded dynamically — bots and slow connections may see nothing above the fold.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Navigation</td><td>Navigation includes core pages (Virtual Tours, Video Work, About, Contact, Blog, Projects). Acceptable structure but missing key conversion pages like Pricing, Case Studies, or a dedicated Portfolio page.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Page Speed</td><td>Wix's Thunderbolt engine loads extensive JavaScript frameworks before any content renders. Multiple CDN calls, animation libraries, and component loaders add to initial page weight. First Contentful Paint is likely poor on mobile.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Mobile Performance</td><td>While Wix is technically responsive, the heavy JavaScript payload and client-side rendering create significant mobile load time issues on slower connections — critical for hospitality buyers browsing on phones.</td></tr>
+<tr><td><span class="badge badge-pass">PASS</span></td><td>Visual Consistency</td><td>Color palette and typography appear consistent across pages. Cormorant Garamond font loaded as a brand typeface choice — suggests intentional design thinking.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Page Count Bloat</td><td>77 pages in the sitemap, but ~50 of them are individual DigiBiz Card profile pages. These pad the sitemap without adding service-related SEO value.</td></tr>
+</table>
+
+<h3>On-Page SEO</h3>
+<table>
+<tr><th style="width:60px;"></th><th style="width:160px;">Area</th><th>Finding</th></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Page Title Tags</td><td>Homepage title is "The Digital UpRoar | Virtual Tours" — acceptable but generic. Missing geographic targeting ("NYC Virtual Tours" or "Hospitality Virtual Tours NYC") that would capture local search intent.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Meta Descriptions</td><td>Wix auto-generates meta descriptions for most pages. Blog post descriptions exist but are formulaic ("Discover how virtual tours can..."). Service pages likely have weak or auto-generated descriptions.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Keyword Strategy</td><td>The blog targets "virtual tours" broadly but never drills into high-intent commercial keywords: "360 virtual tour cost," "virtual tour company NYC," "hospitality virtual tour vendor."</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Keyword Cannibalization</td><td>Severe topic cannibalization across the blog. At least 5 posts target "hotel virtual tours," 4 posts target "clickable hotspots," 3 posts target "event center virtual tours." Google cannot determine which page to rank — so it ranks none.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>URL Structure</td><td>URLs are clean (/virtualtours, /videowork, /about). Blog URLs use /post/ prefix which is standard. DigiBiz card URLs use person names — not ideal but not harmful.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Image Alt Text</td><td>Wix sites typically auto-generate generic alt text or leave it empty. With a visual-heavy portfolio site, every image should have descriptive, keyword-bearing alt text.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Blog Exists</td><td>A blog with 24 posts exists — better than competitors who have none. However, all posts were published between Aug–Dec 2024, with nothing in 2025 or 2026. The blog appears abandoned.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Internal Linking</td><td>Blog posts appear standalone — no evidence of cross-linking between blog content and service pages. The virtual tours page should be linked from every hotel/bar/nightclub blog post.</td></tr>
+<tr><td><span class="badge badge-pass">PASS</span></td><td>HTTPS / SSL</td><td>Site is served over HTTPS. Baseline security standard met (Wix handles this automatically).</td></tr>
+</table>
+
+<div class="page-break"></div>
+<h3>Technical SEO</h3>
+<table>
+<tr><th style="width:60px;"></th><th style="width:160px;">Area</th><th>Finding</th></tr>
+<tr><td><span class="badge badge-pass">PASS</span></td><td>XML Sitemap</td><td>Sitemap exists at /sitemap.xml with proper sitemap index structure (pages, blog posts, blog categories). Submitted and crawlable.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Client-Side Rendering</td><td>This is the single biggest technical SEO issue. Wix Thunderbolt renders all content via JavaScript. Google's crawler can process JS, but it's deprioritized, delayed, and unreliable. Content-heavy pages may not be fully indexed.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Schema Markup</td><td>No LocalBusiness, Organization, Service, or Article schema detected. This eliminates eligibility for rich results in Google SERPs — a critical miss for a visual services company.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Image Optimization</td><td>Wix serves images via its own CDN (static.wixstatic.com) with automatic compression. However, image filenames are Wix-generated hashes, not descriptive SEO-friendly names.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Core Web Vitals</td><td>Wix's JavaScript-heavy rendering pipeline typically scores poorly on Largest Contentful Paint (LCP) and Interaction to Next Paint (INP). Slow loading kills conversions for a portfolio site.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Wix Platform Limits</td><td>Wix controls server infrastructure, caching, CDN, and rendering pipeline. Site owner has limited ability to optimize performance beyond what Wix provides. Inherent platform ceiling.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Google Search Console</td><td>No evidence the site is actively monitored. Without GSC, crawl errors, indexation gaps, and manual penalties go undetected.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Google Analytics</td><td>No evidence of GA4 implementation visible in source. Zero visibility into traffic sources, user behavior, or conversion paths.</td></tr>
+<tr><td><span class="badge badge-pass">PASS</span></td><td>Domain Age</td><td>Domain is established and active. No evidence of spam history or penalties.</td></tr>
+<tr><td><span class="badge badge-pass">PASS</span></td><td>Robots.txt</td><td>Properly configured with sitemap reference. Crawl delays set for aggressive bots. PetalBot blocked. Shows technical awareness.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Subdomain Split</td><td>qr.thedigitaluproar.com serves DigiBiz Cards separately, splitting domain authority between two subdomains rather than consolidating on www.</td></tr>
+</table>
+
+<h3>Content Quality & Depth</h3>
+<table>
+<tr><th style="width:60px;"></th><th style="width:160px;">Area</th><th>Finding</th></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Blog Repetition</td><td>The 24 blog posts cover approximately 5 distinct topics repackaged repeatedly. "Boost Hotel Bookings with Interactive Virtual Tours" (Oct), "Virtual Tours Help Hotels Get More Guests" (Nov), "Attract More Guests by Showcasing Your Hotel with Virtual Tours" (Dec) — functionally the same article.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Blog Freshness</td><td>Last blog post published December 29, 2024. As of March 2026, the blog has been dormant for 15 months. This signals inactivity to Google and buyers.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Blog Topic Range</td><td>All 24 posts focus exclusively on virtual tours for hospitality. Zero content on DigiBiz Cards, video production, AR experiences, or the broader technology behind the work.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Service Page Depth</td><td>Virtual Tours and Video Work appear to be the two core service pages. Page count suggests these are likely thin — a single page each without sub-pages for industries, use cases, or process explanations.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Case Studies</td><td>A "Projects" page and individual client pages (TAO Group, 50 Eggs) exist, but no structured case study format — no before/after metrics, no problem-solution-result narrative, no ROI data.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>DigiBiz Cards Content</td><td>~50 individual profile pages for DigiBiz Card clients are indexed. These add page count but minimal SEO value. However, the names attached are notable (Governor Abbott, Commissioner Morath, Tisha Campbell).</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Differentiator Messaging</td><td>The site never clearly answers: "Why The Digital UpRoar over any other virtual tour company?" TAO Group and 50 Eggs relationships are powerful differentiators that should be front and center.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Industries Page</td><td>No dedicated "Industries We Serve" page despite working across nightlife, hospitality, restaurants, events, and political/government clients.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>FAQ / Educational</td><td>No FAQ section addressing buyer questions: cost, timeline, equipment, update process, hosting. These are high-search-volume queries going unanswered.</td></tr>
+</table>
+
+<div class="page-break"></div>
+<h3>Conversion Optimization</h3>
+<table>
+<tr><th style="width:60px;"></th><th style="width:160px;">Area</th><th>Finding</th></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Contact Page</td><td>A contact page exists (/contact). Form structure unknown due to Wix CSR. Likely a basic form without project scoping fields.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Pricing Transparency</td><td>No pricing information visible anywhere. "Virtual tour cost" is one of the most-searched buyer queries. Even a "Starting at $X" range would capture significant search traffic.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Homepage CTA</td><td>Unclear whether there is a strong above-the-fold call to action. Wix sites typically lack urgency in CTA placement without intentional design intervention.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Request a Quote Flow</td><td>No dedicated "Get a Quote" or "Book a Tour Shoot" page. A multi-step intake form asking about venue type, square footage, and timeline would dramatically improve lead quality.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Lead Magnet</td><td>No lead magnets: no "Virtual Tour ROI Guide," no "Hospitality Marketing Checklist," no sample tour demo. Zero mechanisms to capture early-stage buyer emails.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Live Chat</td><td>No live chat or chatbot. For an experience-based service, immediate engagement with potential clients could significantly increase conversion rates.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Phone Number</td><td>No phone number visible in search results or page metadata. Hospitality decision-makers often prefer to call. A missing phone number is a missed conversion.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Social Proof on Pages</td><td>No testimonials or client quotes visible on service pages. Buyers evaluating creative services need reassurance directly adjacent to the service description.</td></tr>
+</table>
+
+<h3>Trust & Credibility</h3>
+<table>
+<tr><th style="width:60px;"></th><th style="width:160px;">Area</th><th>Finding</th></tr>
+<tr><td><span class="badge badge-pass">PASS</span></td><td>Notable Clients — Hospitality</td><td>TAO Group Hospitality (preferred vendor) and 50 Eggs Hospitality (preferred vendor) are legitimate, high-profile hospitality brands. TAO Group operates Marquee, Avenue, Lavo, Beauty & Essex. Genuine competitive asset.</td></tr>
+<tr><td><span class="badge badge-pass">PASS</span></td><td>Notable Clients — DigiBiz</td><td>Governor Greg Abbott, Commissioner Mike Morath, actress Tisha Campbell, SoHo House members, attorneys, and medical professionals among DigiBiz clients. Signals access to high-caliber networks.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Testimonials</td><td>Zero client testimonials found anywhere on the site or in search results. For a company with TAO Group and Governor Abbott as clients, even 2-3 quotes would be transformative for credibility.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Client Logos</td><td>No "trusted by" client logo bar visible on homepage or service pages. TAO Group and 50 Eggs logos would immediately elevate perceived authority.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Team / Leadership</td><td>Ruben (RC) Cepeda identifiable via LinkedIn but not prominently featured on the site. No team page, no founder story. Hospitality is relationship-driven — buyers want to know who they're working with.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>About Page</td><td>About page exists but content quality unknown due to Wix CSR. Should feature founder's story, mission, methodology, and the "why" behind the work.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Awards & Press</td><td>No press mentions, awards, or third-party coverage. A company serving TAO Group should be pitching stories to hospitality trade publications (Skift, Hotel Management).</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Third-Party Reviews</td><td>No Google reviews, no Clutch profile, no G2 listing, no Yelp presence. When buyers search "The Digital UpRoar reviews," they find nothing.</td></tr>
+</table>
+
+<div class="page-break"></div>
+<h3>Digital Presence & Off-Site Signals</h3>
+<table>
+<tr><th style="width:60px;"></th><th style="width:160px;">Area</th><th>Finding</th></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Google Business Profile</td><td>No confirmed Google Business Profile. Eliminates the company from "virtual tour company near me" searches and local map results.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>LinkedIn</td><td>Ruben Cepeda has a LinkedIn profile with 500+ connections. However, no LinkedIn Company Page for The Digital UpRoar confirmed. LinkedIn is the primary B2B discovery channel.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Instagram</td><td>@thedigitaluproar exists on Instagram. For a visual, portfolio-driven business, Instagram should be the primary social channel. Engagement metrics unknown.</td></tr>
+<tr><td><span class="badge badge-warn">WARN</span></td><td>Facebook</td><td>A Facebook page exists. Secondary channel for this type of business but provides some social proof.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Backlink Profile</td><td>Only the homepage and a handful of internal pages appear indexed. Minimal external links. Domain authority is likely very low (estimated DR 5-15).</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Directory Listings</td><td>No presence on Clutch, DesignRush, G2, GoodFirms, or hospitality-specific platforms like Hotel Tech Report or Cvent Supplier Network.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Organic Visibility</td><td>The site likely ranks for no commercial keywords. A search for "virtual tour company NYC" or "hospitality virtual tours" would not surface this site.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>Review Platforms</td><td>Zero reviews on any platform. Even 5 Google reviews would significantly improve buyer confidence and local search visibility.</td></tr>
+<tr><td><span class="badge badge-fail">FAIL</span></td><td>YouTube / Video</td><td>No confirmed YouTube channel for a video production company. Tour walkthroughs and behind-the-scenes should be publicly accessible and SEO-optimized.</td></tr>
+</table>
+
+<!-- WHAT THEY DO RIGHT -->
+<h2>What They Are Doing Right</h2>
+<p>Despite significant gaps, TheDigitalUpRoar.com has several genuine strengths that serve as a foundation to build on:</p>
+<ul class="strengths-list">
+<li><strong>High-profile hospitality clients</strong> — TAO Group Hospitality (Marquee, Lavo, Avenue, Beauty & Essex) and 50 Eggs Hospitality as preferred vendors. These are legitimate, top-tier hospitality brands that validate the quality of work.</li>
+<li><strong>Notable DigiBiz Card clients</strong> — Governor Greg Abbott, Commissioner Mike Morath, and actress Tisha Campbell among the profile pages. Signals access to high-influence networks.</li>
+<li><strong>Clear niche positioning</strong> — Focused on virtual tours for hospitality (hotels, bars, nightclubs, restaurants, event centers). This specificity is a strategic advantage over generalist agencies.</li>
+<li><strong>Blog exists with 24 posts</strong> — While repetitive, demonstrates content awareness. Most competitors have zero content. A foundation to refine rather than build from scratch.</li>
+<li><strong>DigiBiz Cards as secondary revenue stream</strong> — A productized service beyond core virtual tours. Diversifies revenue and shows product thinking.</li>
+<li><strong>Sitemap and robots.txt properly configured</strong> — Technical SEO basics in place, suggesting awareness of search optimization fundamentals.</li>
+<li><strong>Dual-market positioning</strong> — Connections in both NYC hospitality and Texas (Austin-based, Texas political figures). Two geographic markets to leverage.</li>
+<li><strong>Domain is clean</strong> — No spam history, no penalties detected, no toxic backlink signals.</li>
+</ul>
+
+<div class="page-break"></div>
+<!-- PRIORITY FIX LIST -->
+<h2>What They Are Doing Wrong — Priority Fix List</h2>
+
+<table>
+<tr><th style="width:120px;">Category</th><th style="width:180px;">Issue Found</th><th>Recommended Fix</th><th style="width:70px;">Priority</th></tr>
+<tr><td>Platform — Wix</td><td>Wix's client-side rendering severely limits SEO crawlability and page speed. Single biggest technical ceiling.</td><td>Migrate to WordPress, Webflow, or custom Next.js with server-side rendering. Every other fix is less effective while on Wix.</td><td><span class="badge badge-critical">Critical</span></td></tr>
+<tr><td>Content — Blog Cannibalization</td><td>5+ posts target "hotel virtual tours," 4+ target "clickable hotspots." Google can't determine which to rank.</td><td>Consolidate repetitive posts into 5-6 definitive pillar articles. 301-redirect merged URLs. Each pillar 1,500-2,000 words.</td><td><span class="badge badge-critical">Critical</span></td></tr>
+<tr><td>Trust — No Reviews</td><td>Zero reviews on Google, Clutch, G2, or any platform. Buyers find nothing.</td><td>Request Google reviews from TAO Group, 50 Eggs, and DigiBiz Card clients. Set up Clutch profile. Target 10+ reviews in 60 days.</td><td><span class="badge badge-critical">Critical</span></td></tr>
+<tr><td>Conversion — No Pricing</td><td>No pricing information anywhere. "Virtual tour cost" is a top buyer query.</td><td>Add a Pricing page with 3 tiers (Standard, Premium with Hotspots, Enterprise Multi-Location). Even ranges help.</td><td><span class="badge badge-critical">Critical</span></td></tr>
+<tr><td>Trust — Client Logos</td><td>TAO Group and 50 Eggs are powerful names but no logo bar on the site.</td><td>Add "Trusted By" logo section on homepage and every service page. Feature TAO Group, 50 Eggs, and other recognizable brands.</td><td><span class="badge badge-critical">Critical</span></td></tr>
+<tr><td>SEO — Keywords</td><td>No targeting of commercial keywords: "360 virtual tour cost," "virtual tour company NYC."</td><td>Develop keyword map targeting 30-50 commercial and informational queries. Assign each to a specific page.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Content — Blog Dormancy</td><td>Blog hasn't been updated in 15 months (last post Dec 2024).</td><td>Resume publishing 2-4 posts per month. Expand topics beyond virtual tours to video, DigiBiz, AR, industry trends.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>SEO — Schema</td><td>No structured data on any page. No eligibility for rich results.</td><td>Implement LocalBusiness, Organization, Service, Article, and FAQ schema.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Conversion — Intake Form</td><td>No structured "Get a Quote" page with project scoping fields.</td><td>Build dedicated intake form: venue type, square footage, number of spaces, timeline, budget range.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Digital — LinkedIn</td><td>No LinkedIn Company Page. Primary B2B discovery channel for hospitality.</td><td>Create and optimize LinkedIn Company Page. Post weekly. Feature client results and behind-the-scenes content.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Digital — Google Business</td><td>No Google Business Profile. Missing from local searches.</td><td>Create and verify GBP for Austin, TX. Add portfolio photos, services, hours.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Content — Case Studies</td><td>Client pages exist but lack structured format — no metrics, no ROI.</td><td>Rewrite as full case studies: challenge, solution, technology, results (bookings increased X%, inquiries up Y%).</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Trust — Testimonials</td><td>Zero testimonials despite working with major brands.</td><td>Collect 5-10 written testimonials. Feature on homepage, service pages, and dedicated testimonials page.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Trust — Team Page</td><td>No founder story or team visibility.</td><td>Add prominent "Meet the Founder" section with Ruben Cepeda's background and company origin story.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Digital — YouTube</td><td>No YouTube channel for a video production company.</td><td>Create YouTube channel. Upload walkthroughs, behind-the-scenes, client reels. Optimize for search.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Content — Industries</td><td>No "Industries We Serve" page despite multi-vertical work.</td><td>Build Industries page with sub-sections for hotels, nightclubs, restaurants, event centers, corporate.</td><td><span class="badge badge-high">High</span></td></tr>
+<tr><td>Conversion — Lead Magnet</td><td>No gated content to capture early-stage buyer emails.</td><td>Create "The Hospitality Guide to Virtual Tours" as a PDF download behind email gate.</td><td><span class="badge badge-medium">Medium</span></td></tr>
+<tr><td>SEO — Image Alt Text</td><td>Wix generates hash-based filenames. Alt text likely generic.</td><td>Add descriptive alt text: "360 virtual tour Marquee NYC nightclub," "interactive hotspot tour 50 Eggs."</td><td><span class="badge badge-medium">Medium</span></td></tr>
+<tr><td>Technical — Analytics</td><td>No confirmed GA4 or Search Console.</td><td>Install GA4 and connect GSC. Monitor weekly. Set up conversion tracking.</td><td><span class="badge badge-medium">Medium</span></td></tr>
+<tr><td>Conversion — Chat</td><td>No live chat for real-time engagement.</td><td>Install Tidio, Drift, or HubSpot live chat. Set business hours with after-hours auto-respond.</td><td><span class="badge badge-medium">Medium</span></td></tr>
+<tr><td>Digital — Directories</td><td>Not listed on Clutch, DesignRush, Hotel Tech Report.</td><td>Create verified profiles. Prioritize Clutch (B2B) and Hotel Tech Report (hospitality).</td><td><span class="badge badge-medium">Medium</span></td></tr>
+<tr><td>Content — FAQ</td><td>No FAQ addressing cost, timeline, equipment, process.</td><td>Build FAQ page targeting high-volume queries. Add FAQ schema for rich results.</td><td><span class="badge badge-medium">Medium</span></td></tr>
+<tr><td>Content — DigiBiz Page</td><td>DigiBiz service has no dedicated marketing page.</td><td>Create DigiBiz Cards service page with product description, pricing, notable clients.</td><td><span class="badge badge-medium">Medium</span></td></tr>
+<tr><td>SEO — Subdomain</td><td>qr.thedigitaluproar.com splits domain authority.</td><td>Move DigiBiz landing pages to www.thedigitaluproar.com/digibiz/ to consolidate.</td><td><span class="badge badge-low">Low</span></td></tr>
+</table>
+
+<div class="page-break"></div>
+<!-- 90-DAY ROADMAP -->
+<h2>Recommended 90-Day Fix Roadmap</h2>
+
+<h3>Days 1–30: Foundation (Critical Fixes)</h3>
+<ol>
+<li>Begin platform migration evaluation (WordPress, Webflow, or Next.js) — get quotes, select vendor</li>
+<li>Consolidate blog: merge 24 repetitive posts into 6 definitive pillar articles with 301 redirects</li>
+<li>Add a "Trusted By" client logo bar to the homepage (TAO Group, 50 Eggs, other recognizable names)</li>
+<li>Create a Pricing page with 3-tier virtual tour packages</li>
+<li>Request Google reviews from 10+ past clients (start with strongest relationships)</li>
+<li>Create LinkedIn Company Page and post first 5 updates with portfolio highlights</li>
+<li>Create and verify Google Business Profile for Austin, TX</li>
+<li>Install GA4 and Google Search Console; submit sitemap</li>
+</ol>
+
+<h3>Days 31–60: Content & Trust</h3>
+<ol start="9">
+<li>Rewrite TAO Group and 50 Eggs pages as structured case studies (challenge, solution, results, metrics)</li>
+<li>Collect 5-10 written testimonials; feature on homepage and all service pages</li>
+<li>Build "Industries We Serve" page (hotels, nightclubs, restaurants, event centers, corporate)</li>
+<li>Add "Meet the Founder" section with Ruben Cepeda's background and company story</li>
+<li>Create DigiBiz Cards service page with product description, pricing, and notable clients</li>
+<li>Build a dedicated "Get a Quote" intake form with project scoping fields</li>
+<li>Implement LocalBusiness, Service, and Article schema markup</li>
+<li>Create profiles on Clutch, DesignRush, and Hotel Tech Report</li>
+</ol>
+
+<h3>Days 61–90: Growth & Visibility</h3>
+<ol start="17">
+<li>Resume blog publishing: 2-4 posts per month covering virtual tours, video, DigiBiz, AR, and industry trends</li>
+<li>Build FAQ page targeting "virtual tour cost," "how long does a virtual tour take," and related queries</li>
+<li>Launch YouTube channel with tour walkthroughs and behind-the-scenes content</li>
+<li>Create a PDF lead magnet ("The Hospitality Guide to Virtual Tours") gated behind email capture</li>
+<li>Install live chat (Tidio or HubSpot free tier) with business hours auto-responses</li>
+<li>Begin backlink outreach: pitch hospitality trade publications (Skift, Hotel Management, Hospitality Design)</li>
+<li>If platform migration approved: begin build on new platform with SSR</li>
+<li>Run "Client Appreciation" campaign: feature 1 client per week on LinkedIn with tour results</li>
+</ol>
+
+<!-- COMPETITIVE CONTEXT -->
+<h2>Competitive Context</h2>
+<p>The Digital UpRoar operates in the virtual tour production space, competing against both national agencies (Momentum 360, OmniSight, YouVisit) and platform-based DIY solutions (Matterport, Kuula, Teliportme). The competitive landscape breaks into two tiers:</p>
+<p><strong>Platform/DIY tools</strong> (Matterport, Kuula, etc.) compete on price and self-service. These are the low-end option for businesses that want "good enough" virtual tours without custom production.</p>
+<p><strong>Full-service agencies</strong> (Momentum 360, OmniSight, etc.) compete on quality, customization, and industry specialization. These companies have invested in content marketing, case studies, SEO, and directory presence.</p>
+<p>The Digital UpRoar's competitive advantage is its hospitality specialization and established relationships with TAO Group and 50 Eggs — brands that most competitors cannot claim. However, this advantage is <strong>completely invisible online</strong>. A hospitality GM searching "virtual tour company for nightclub" or "360 tour vendor hotels NYC" would never find The Digital UpRoar in search results, reviews, or directories.</p>
+<p>The strategic opportunity is clear: The Digital UpRoar has the client roster and niche expertise to dominate the "hospitality virtual tours" vertical. The gap is entirely in digital execution — the website, content, SEO, and online reputation do not reflect the quality of the work or the caliber of clients being served.</p>
+<p>With a focused 90-day investment, this company could move from invisible to the go-to hospitality virtual tour vendor in search results, directories, and social platforms.</p>
+
+<!-- SITE ARCHITECTURE -->
+<h2>Site Architecture Analysis</h2>
+<h3>Pages Indexed (77 total via sitemap)</h3>
+<table>
+<tr><th>Page Type</th><th style="width:70px;">Count</th><th>SEO Value</th></tr>
+<tr><td>Core service pages (Virtual Tours, Video Work, About, Contact, Blog, Projects)</td><td style="text-align:center;">7</td><td>High</td></tr>
+<tr><td>Client portfolio pages (TAO Group, 50 Eggs, Don Pepe's)</td><td style="text-align:center;">3</td><td>Medium</td></tr>
+<tr><td>DigiBiz Card individual profiles</td><td style="text-align:center;">~50</td><td>Low</td></tr>
+<tr><td>Blog posts</td><td style="text-align:center;">24</td><td>Medium (if deduplicated)</td></tr>
+<tr><td>Utility pages (blank, copy-of pages)</td><td style="text-align:center;">~3</td><td>None</td></tr>
+</table>
+
+<h3>Blog Content Analysis (24 posts, Aug–Dec 2024)</h3>
+<table>
+<tr><th>Topic Cluster</th><th style="width:70px;">Posts</th><th>Assessment</th></tr>
+<tr><td>Hotel virtual tours / bookings</td><td style="text-align:center;">6</td><td>Severe cannibalization — consolidate into 1 pillar</td></tr>
+<tr><td>Clickable hotspots / event sales</td><td style="text-align:center;">5</td><td>Severe cannibalization — consolidate into 1 pillar</td></tr>
+<tr><td>Event center virtual tours</td><td style="text-align:center;">3</td><td>Moderate overlap — consolidate into 1 pillar</td></tr>
+<tr><td>Bar/nightclub virtual tours</td><td style="text-align:center;">3</td><td>Moderate overlap — consolidate into 1 pillar</td></tr>
+<tr><td>Wedding venue virtual tours</td><td style="text-align:center;">2</td><td>Acceptable — could be 1 strong piece</td></tr>
+<tr><td>General virtual tour benefits</td><td style="text-align:center;">3</td><td>Moderate overlap — consolidate into 1 pillar</td></tr>
+<tr><td>Digital networking / DigiBiz</td><td style="text-align:center;">1</td><td>Unique topic — expand into a series</td></tr>
+<tr><td>Virtual tour creation guide</td><td style="text-align:center;">1</td><td>Unique topic — expand into comprehensive guide</td></tr>
+</table>
+
+<!-- METHODOLOGY -->
+<h2>Audit Methodology</h2>
+<p>This audit was conducted through: sitemap analysis (pages-sitemap.xml, blog-posts-sitemap.xml); Google search index analysis (site: operator); robots.txt inspection; HTML source analysis of rendering framework, fonts, and technical infrastructure; LinkedIn profile review; Google search for reviews, press coverage, and directory listings; cross-reference against B2B creative services agency website benchmarks and SEO best practices as of March 2026.</p>
+<p>Note: TheDigitalUpRoar.com is built on Wix, which uses full client-side rendering (JavaScript-only content delivery). This means the actual visible page content — text, images, portfolio items — could not be directly extracted via standard HTTP crawl. Findings for on-page content are based on metadata, sitemap analysis, blog post titles/dates, search results, and industry standard Wix template behavior.</p>
+<p>Metrics such as exact Domain Rating, Core Web Vitals scores, and backlink counts require paid tool access (Ahrefs, SEMrush, or Moz) for precise measurement. The estimates in this report are based on observable signals and industry baselines.</p>
+
+<p class="end-marker">— End of Audit Report —</p>
+
+</body>
+</html>
