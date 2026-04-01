@@ -1209,13 +1209,8 @@ section {
 .reviews-track {
   display: flex;
   gap: 1.5rem;
-  animation: marquee-scroll 45s linear infinite;
-  width: max-content;
+  justify-content: center;
   padding: 0.5rem 2rem;
-}
-
-.reviews-track:hover {
-  animation-play-state: paused;
 }
 
 .review-card {
