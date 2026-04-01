@@ -51,29 +51,73 @@
         "@graph": [
           {
             "@type": "LocalBusiness",
-            "name": "Liquid Pixel",
-            "image": "https://www.liquidpixelagency.com/assets/logos/brand/liquidpixel.jpeg",
-            "@id": "https://www.liquidpixelagency.com/",
-            "url": "https://www.liquidpixelagency.com/",
+            "name": "Liquid Pixel Digital Agency",
+            "image": "https://liquidpixel.io/assets/logos/brand/liquidpixel.png",
+            "@id": "https://liquidpixel.io/",
+            "url": "https://liquidpixel.io/",
             "telephone": "+19568029541",
-            "email": "rc@liquidpixelagency.com",
-            "description": "Boutique digital agency providing interactive technologies including Virtual Tours and Video Production.",
+            "email": "rc@liquidpixel.io",
+            "description": "Boutique digital agency specializing in 360-degree virtual tours, video production, and interactive digital media for hospitality, real estate, retail, and corporate clients.",
+            "priceRange": "$999-$2999+",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Austin",
+              "addressLocality": "McAllen",
               "addressRegion": "TX",
+              "postalCode": "78501",
               "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 26.2034,
+              "longitude": -98.2300
+            },
+            "areaServed": [
+              { "@type": "City", "name": "McAllen" },
+              { "@type": "City", "name": "Austin" },
+              { "@type": "City", "name": "San Antonio" },
+              { "@type": "City", "name": "Brownsville" },
+              { "@type": "City", "name": "South Padre Island" },
+              { "@type": "City", "name": "Corpus Christi" },
+              { "@type": "State", "name": "Texas" }
+            ],
+            "sameAs": [
+              "https://www.instagram.com/liquidpixelagency/"
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "Standard Virtual Tour",
+            "serviceType": "360 Virtual Tour Photography",
+            "provider": { "@id": "https://liquidpixel.io/" },
+            "areaServed": { "@type": "State", "name": "Texas" },
+            "description": "Professional 360-degree virtual tours up to 2,000 sq ft with 72 MP photography and advanced color correction.",
+            "offers": {
+              "@type": "Offer",
+              "price": "999",
+              "priceCurrency": "USD"
             }
           },
           {
             "@type": "Service",
-            "serviceType": "Virtual Tours",
-            "provider": { "@id": "https://www.liquidpixelagency.com/" },
-            "areaServed": [
-              { "@type": "City", "name": "Austin" },
-              { "@type": "City", "name": "New York City" }
-            ],
-            "description": "360-degree interactive virtual tours for hospitality, restaurants, and event centers."
+            "name": "Premium Virtual Tour with Hotspots",
+            "serviceType": "Interactive 360 Virtual Tour",
+            "provider": { "@id": "https://liquidpixel.io/" },
+            "areaServed": { "@type": "State", "name": "Texas" },
+            "description": "Interactive 360-degree virtual tours up to 5,000 sq ft with hotspots, lead generation forms, custom menus, and 96 MP photography.",
+            "offers": {
+              "@type": "Offer",
+              "price": "1999",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "Service",
+            "name": "Video Production",
+            "serviceType": "Commercial Video Production",
+            "provider": { "@id": "https://liquidpixel.io/" },
+            "areaServed": { "@type": "State", "name": "Texas" },
+            "description": "Professional video production for brands, events, social media content, and commercial campaigns."
           }
         ]
       }
