@@ -432,6 +432,49 @@
       </section>
 
       <!-- FAQ -->
+      <!-- FAQPage structured data — mirrors the visible FAQ below so Google & AI assistants
+           can surface these answers as rich results / direct answers (AEO/AIO). -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does a virtual tour cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our tours start at $999 for standard spaces under 2,000 square feet. For larger hospitality venues requiring interactive hotspots, custom menus, and lead generation forms, pricing typically ranges from $1,999 to $4,500 based on square footage and technical requirements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does the shoot take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most venue shoots take between 2 to 4 hours on-site. We specialize in hospitality and understand the need to shoot around operating hours, minimizing disruption to your staff and guests."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is the tour hosted?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your tour is hosted on secure, high-speed cloud servers to ensure lightning-fast loading everywhere. We provide you with a simple iframe embed code to place on your website, and we can also push the tour directly to your Google Business Profile for immediate local SEO impact."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can we update menus or content later?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The physical scan of your space remains permanent, but any digital information overlays such as PDF menus, booking links, or video pop-ups can be updated by our team at any time without needing to reshoot the venue."
+            }
+          }
+        ]
+      }
+      </script>
+
       <section id="faq" style="background: var(--bg-deep); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
         <div class="container">
           <div class="section-header text-center">
