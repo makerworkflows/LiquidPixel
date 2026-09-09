@@ -1,0 +1,25 @@
+# Security response headers — OPS-RF02 finding 1 (ISO 27001 A.8.9)
+#
+# ⚠️ THIS FILE IS INERT ON GITHUB PAGES. GitHub Pages cannot serve custom response
+# headers at all — there is no _headers support and no edge layer to add them. It is
+# committed here so the migration to Cloudflare Pages is a cutover, not a rebuild.
+#
+# Until that migration happens, the only hardening in effect is the <meta> tags in
+# each page's <head> (referrer policy + CSP). Those cannot deliver X-Frame-Options,
+# X-Content-Type-Options, HSTS or Permissions-Policy, and `frame-ancestors` is
+# ignored inside a meta CSP — so clickjacking protection specifically requires this
+# file to be live.
+#
+# The CSP below mirrors the meta CSP already shipped, plus frame-ancestors.
+# It was verified in a real browser against GTM, Calendly, Google Fonts and the
+# homepage Vimeo embed — 0 securitypolicyviolation events across all pages.
+# ⚠️ Re-verify after ANY new third-party embed is added.
+
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin-allow-popups
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://assets.calendly.com; style-src 'self' 'unsafe-inline' https://assets.calendly.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://calendly.com https://*.calendly.com https://player.vimeo.com; frame-ancestors 'self'; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://calendly.com https://*.calendly.com; base-uri 'self'; form-action 'self' https://calendly.com; object-src 'none'
